@@ -1,0 +1,80 @@
+.hero {
+  margin-top: 10px;
+  padding-left: 8px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-rows: auto 1fr;
+  column-gap: 32px;
+  row-gap: 18px;
+  align-items: center;
+  min-height: 75vh;
+  position: relative; // para el tag NEW IN
+}
+
+.hero__title {
+  grid-column: 1 / -1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 130px;        
+  line-height: 1;
+  letter-spacing: 0;
+  color: #fff;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.hero__left {
+  grid-column: 1;
+  align-self: start;
+  max-width: 420px;
+  margin-top: 60px;
+}
+
+.hero__right {
+  grid-column: 2;
+  align-self: end;
+  min-height: 420px;
+  border-radius: 12px;
+}
+
+.hero__text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 14px 0 18px;
+}
+
+.hero__price {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: #fff;
+}
+
+.hero__btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 1px solid rgba(255,255,255,.8);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
+}
+
+.hero__tag {
+  position: absolute;
+  left: 16px;
+  bottom: 24px;
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  color: rgba(255,255,255,.7);
+  letter-spacing: 0.2em;
+  font-size: 12px;
+}
