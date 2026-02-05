@@ -1,0 +1,27 @@
+.site-header {
+  position: relative;
+  min-height: 100vh;
+  background: #0b0b0b;
+  overflow: hidden;
+
+  /* antes: padding: 24px; */
+  padding: 24px 68px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(600px 300px at 20% 20%, rgba(255,255,255,.10), transparent 60%),
+      radial-gradient(500px 250px at 80% 30%, rgba(255,255,255,.08), transparent 60%),
+      radial-gradient(700px 350px at 60% 80%, rgba(255,255,255,.06), transparent 60%);
+    filter: blur(24px);
+    opacity: .9;
+    pointer-events: none;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
