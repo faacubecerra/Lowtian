@@ -172,4 +172,13 @@ body {
   font-size: 12px;
 }
 
+.banner-promos {
+  background-color: #e2e2e2;
+}
+
+.info-promo {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
