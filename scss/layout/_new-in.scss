@@ -1,0 +1,43 @@
+.new-in-title{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+.new-in-escena{
+    position: relative;
+    height: 35vw;   
+    min-height: 320px; 
+    max-height: 520px;
+
+    .new-in-images-principal{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        width: 23%;
+        }
+    .new-in-images-side-left{
+        position: absolute;
+        left: 30%;
+        z-index: 1;
+        width: 19%;
+    }
+    .new-in-images-side-rigth{
+        position: absolute;
+        left: 52%;
+        z-index: 1;
+        width: 23%;
+        transform: translateY(40%);
+    }
+}
+.new-in-article-info{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media(max-width:768px){
+    .new-in{
+        display: block;
+    }
+}
