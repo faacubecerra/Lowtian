@@ -1,0 +1,45 @@
+.destacados{
+    background-color: #f9f9f9;
+}
+.destacados h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8rem;
+    font-size: 2.3rem;
+}
+
+.articulos-destacados{
+    display: flex;
+    justify-content: space-around;
+    .articulo-destacado{
+        padding: 0rem 2rem;
+        .articulo-fondo-imagen{
+            background-color: #F4F4F4;
+            height: 23.8rem;
+            width: 20.3rem;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+    .articulo-title{
+        text-transform: uppercase;
+        font-weight: 400;
+        margin: 1rem 0rem;
+    }   
+    .articulo-price{
+        font-weight: 600;
+    } 
+    }
+}
+
+ .articulo-fondo-imagen img{
+    width: 16.1rem;
+}
+
+.arrow-svg{
+    transform: rotate(180deg);
+}
+
+.articulo-unselected{
+    background-color: #f2f2f2;
+}
