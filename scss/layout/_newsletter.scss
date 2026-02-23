@@ -1,0 +1,29 @@
+.newsletter{
+    height: 17rem;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .newsletter-title{
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .contenedor-newsletter-input{
+        position: relative;
+        .newsletter-input{
+            width: 33rem;
+            height: 3.5rem;
+            border: none;
+            padding-left: 1rem;
+            padding-right: 5rem;
+        }
+    }
+}
+
+.newsletter-arrow{
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+}

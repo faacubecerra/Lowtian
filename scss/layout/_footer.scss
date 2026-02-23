@@ -1,0 +1,29 @@
+.footer-container{
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+
+    .footer-title{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .footer-info{
+        font-weight: 400;
+    }
+    .footer-info-title{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+
+.footer-redes{
+
+    img{
+        padding: .3rem;
+    }
+}
